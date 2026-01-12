@@ -1,0 +1,35 @@
+{
+  "name": "JSON Viewer Demo",
+  "version": "1.0.0",
+  "description": "A beautiful terminal JSON viewer built with Charm libraries",
+  "features": [
+    "Syntax highlighting",
+    "Collapsible nodes",
+    "Keyboard navigation",
+    "Mouse support",
+    "Scrollable viewport"
+  ],
+  "author": {
+    "name": "Daniil Tagan",
+    "github": "daniiltagan",
+    "contact": {
+      "email": "example@email.com",
+      "twitter": "@example"
+    }
+  },
+  "dependencies": {
+    "bubbletea": "^1.3.0",
+    "lipgloss": "^1.1.0",
+    "bubbles": "^0.21.0"
+  },
+  "stats": {
+    "stars": 1234,
+    "forks": 56,
+    "issues": 3,
+    "isOpenSource": true,
+    "license": null
+  },
+  "tags": ["terminal", "cli", "json", "viewer", "tui"],
+  "emptyObject": {},
+  "emptyArray": []
+}
