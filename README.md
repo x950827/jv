@@ -2,9 +2,6 @@
 
 A beautiful terminal JSON viewer with syntax highlighting, collapsible nodes, and copy support. Built with [Charm](https://charm.sh) libraries for a delightful TUI experience.
 
-<!-- TODO: Add screenshot -->
-<!-- ![jv screenshot](./screenshots/demo.png) -->
-
 ## Features
 
 - **Syntax highlighting** - Keys, strings, numbers, booleans, and null values in distinct colors (Tokyo Night theme)
@@ -47,9 +44,6 @@ Run without arguments to open the input editor where you can paste JSON:
 ```bash
 jv
 ```
-
-<!-- TODO: Add screenshot of input mode -->
-<!-- ![Input mode](./screenshots/input-mode.png) -->
 
 ### From File
 
@@ -115,19 +109,6 @@ kubectl get pods -o json | jv
 |-----|--------|
 | `i` | Switch to input mode (edit JSON) |
 | `q` / `Ctrl+C` | Quit |
-
-## Screenshots
-
-<!-- TODO: Add screenshots -->
-
-### Tree View
-<!-- ![Tree view with syntax highlighting](./screenshots/tree-view.png) -->
-
-### Collapsed Nodes
-<!-- ![Collapsed nodes showing item count](./screenshots/collapsed.png) -->
-
-### Copy Feedback
-<!-- ![Copy to clipboard feedback](./screenshots/copy.png) -->
 
 ## Libraries Used
 
